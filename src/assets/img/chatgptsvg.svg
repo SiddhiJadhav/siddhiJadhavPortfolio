@@ -1,0 +1,39 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1E2F" />
+      <stop offset="100%" stop-color="#292941" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+
+  <!-- Stars -->
+  <circle cx="100" cy="100" r="2" fill="white" />
+  <circle cx="200" cy="150" r="3" fill="white" />
+  <circle cx="500" cy="80" r="2" fill="white" />
+  <circle cx="700" cy="200" r="1.5" fill="white" />
+  <circle cx="600" cy="400" r="2.5" fill="white" />
+
+  <!-- Astronaut figure -->
+  <g>
+    <!-- Helmet -->
+    <circle cx="400" cy="300" r="50" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" />
+    <circle cx="400" cy="300" r="40" fill="#1E1E2F" />
+
+    <!-- Body -->
+    <rect x="370" y="350" width="60" height="100" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" rx="10" />
+
+    <!-- Arms -->
+    <rect x="330" y="360" width="40" height="20" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" rx="10" />
+    <rect x="430" y="360" width="40" height="20" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" rx="10" />
+
+    <!-- Legs -->
+    <rect x="380" y="450" width="20" height="40" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" rx="10" />
+    <rect x="400" y="450" width="20" height="40" fill="#ffffff" stroke="#CCCCCC" stroke-width="4" rx="10" />
+  </g>
+
+  <!-- Floating planet -->
+  <circle cx="200" cy="100" r="40" fill="#FF6F61" />
+  <circle cx="200" cy="100" r="30" fill="#D94D4A" />
+</svg>
