@@ -10,6 +10,7 @@ import skillJava from '../assets/img/skill-java.svg';
 import skillTypeScript from '../assets/img/skill-typescript.svg';
 import skillJQuery from '../assets/img/skill-jquery.svg';
 import skillSql from '../assets/img/skill-sql.svg';
+import skillJest from '../assets/img/skill-jest.svg';
 import skillTailwind from '../assets/img/skill-tailwind.svg';
 import skillGit from '../assets/img/skill-git.svg';
 
@@ -92,6 +93,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={skillSql} alt="SQL" />
                   <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={skillJest} alt="Jest" />
+                  <h5>Jest</h5>
                 </div>
                 <div className="item">
                   <img src={skillTailwind} alt="Tailwind" />

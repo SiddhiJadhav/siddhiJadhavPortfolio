@@ -18,6 +18,11 @@ export const ExperienceDetails = () => {
             seamless integration cross-functional teams, including QA engineers`,
     },
     {
+      projName: 'Centralized Reporting System ',
+      projDesc: `- Contributed to the development of a banking audit reporting system for generating, enquiring and auditing quarterly reports. - Implemented role-based access control with five user levels, featuring a dynamic React UI for personalized access and security. - Developed RESTful APIs using Node.js, Express.js, and Oracle SQL to enable efficient data processing and integration.
+`,
+    },
+    {
       projName: ' SSO Applications',
       projDesc: `- Developed a user-friendly interface for Single Sign-On (SSO) functionality in React,
 enabling seamless authentication across multiple banking applications.

@@ -607,8 +607,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  /* padding: 60px 50px; */
+  padding: 2rem 1rem;
+  margin-top: -3rem;
 }
 .experience h2 {
   font-size: 45px;
